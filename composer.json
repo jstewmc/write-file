@@ -1,0 +1,24 @@
+{
+	"name": "jstewmc/write-file",
+	"description": "Write a file",
+	"keywords": ["php", "jstewmc", "write", "file"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs@gmail.com"	
+		}
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^1.0",
+		"mikey179/vfsstream": "^1.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\WriteFile\\": "src/"
+		}
+	}
+}
